@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+div.card-form {
+  display: flex;
+  width: 58vw;
+  height: 65%;
+  box-shadow: 5px 2px 10px 0px;
+  border-radius: 5px;
+
+}
+
+form.form-style {
+  background-color: #fff;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+img.logo-form {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+span.title {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+input {
+  width: 60%;
+  border: none;
+  border-bottom: 2px solid rgba(103, 96, 96, 0.815);
+  margin-top: 30px;
+  margin-left: 15%;
+}
+
+button {
+  width: 40%;
+  border: none;
+  background-color: rgb(108, 2, 108);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+
+input::placeholder {
+  color: solid rgba(103, 96, 96, 0.815);
+}
+
+input:focus {
+  outline: none;
+}
+
+div.img-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url('../Imagenes/fontLogin.jpg');
+  color: white;
+  font-weight: bold;
+}
+
+p.error{ 
+  color:  red;
+  font-size: 14px;
+  margin-left: 55px;
+  margin-top: 5px;
+}
