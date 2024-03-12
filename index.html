@@ -8,15 +8,20 @@
 </head>
 <body>
 
+    <!-- id: deben ser unicas -->
+
     <div class="container">
         <div class="card-form">
-            <form action="" class="form-style">
+            <form action="#" class="form-style">
                 <img src="./Src/Imagenes/logo.jpg" alt="" class="logo-form">
                     <span class="title"> Login </span>    
                     <input type="text" placeholder="Username" id="Username"  onblur="validateUsername()">
-                    <p id="error-message" class="error"></p>
-                    <input type="text" placeholder="Password" id="Password" onchange="">
-                    <button> Login</button>
+                    <p id="error-message" class="error">    </p>
+                    <input type="text" placeholder="Password" id="Password" onblur="validatePassword()">
+                    <p id="Password-error" class="error-password" ></p>
+
+                    <button onclick="changePage()"> <a href="./Src/pages/Home.html">Login</a></button>
+                    <p id="error-date" class="error-date"> </p>
             </form>
             <div class="img-container">
                 <h2> Unique Essence </h2>

@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 div.container {
   width: 100vw;
   height: 100vh;
@@ -89,4 +94,22 @@ p.error{
   font-size: 14px;
   margin-left: 55px;
   margin-top: 5px;
+  display: none;
 }
+
+p.error-password {
+  color:  red;
+  font-size: 14px;
+  margin-left: 55px;
+  margin-top: 5px;
+  display: none;
+}
+
+p.error-date {
+  color:  red;
+  font-size: 14px;
+  margin-left: 55px;
+  margin-top: 5px;
+  display: none;
+}
+
